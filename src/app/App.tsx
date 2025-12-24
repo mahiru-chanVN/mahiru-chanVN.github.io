@@ -96,27 +96,27 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-6 py-20">
           <h2 className="text-4xl md:text-5xl text-white mb-12 text-center">Social Media</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <InfoCard
+             <InfoCard
               icon={Github}
               title="Github"
               description="Check out my repositories and contributions"
-              link="https://github.com/yourusername"
+              link="https://github.com/mahiru-chanVN"
               delay={0}
-            />
-            <InfoCard
+              />
+              <InfoCard
               icon={Facebook}
               title="Facebook"
               description="Connect with me on Facebook"
-              link="https://facebook.com/yourprofile"
+              link="https://facebook.com/mahirulikeyou/"
               delay={100}
-            />
-            <InfoCard
+              />
+              <InfoCard
               icon={FaDiscord}
               title="Discord"
               description="Let's chat on Discord"
-              link="https://discord.com/users/youruserid"
+              link="https://discord.com/users/1053613020338728961"
               delay={200}
-            />
+              />
           </div>
         </div>
 
@@ -125,35 +125,36 @@ export default function App() {
           <h2 className="text-4xl md:text-5xl text-white mb-12 text-center">Featured Projects</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <RepoCard
-              name="awesome-project"
-              description="A comprehensive collection of awesome resources and tools for developers"
-              language="TypeScript"
-              stars={1234}
-              forks={89}
+              name="mahiruchan-VN.github.io"
+              description="My personal website lmao xd"
+              language="TypeScript, React"
+              stars={0}
+              forks={0}
               delay={0}
             />
             <RepoCard
-              name="react-components"
-              description="Beautiful and reusable React components built with Tailwind CSS"
-              language="TypeScript"
-              stars={856}
-              forks={42}
+              name="KHKTNK25"
+              description="My school project btw"
+              language="C++"
+              stars={0}
+              forks={0}
               delay={100}
+              
             />
             <RepoCard
-              name="web-animations"
-              description="Smooth and performant web animations using modern CSS and JS"
-              language="JavaScript"
-              stars={567}
-              forks={31}
+              name="20-10 Mahiru"
+              description="A public archive of 20-10 in 2025"
+              language="JavaScript, HTML, CSS"
+              stars={0}
+              forks={0}
               delay={200}
             />
             <RepoCard
-              name="design-system"
-              description="A complete design system with tokens, components, and documentation"
-              language="TypeScript"
-              stars={445}
-              forks={28}
+              name="FreedMahiru"
+              description="A repo include all work that i make when i was bored :D"
+              language="C++"
+              stars={0}
+              forks={0}
               delay={300}
             />
           </div>
